@@ -61,7 +61,21 @@ div.container {
     width: 960px;
     border: 5px dotted #ECE8D9;
     background-color: #F9F9F9;
-    margin: 50px auto;
+    margin: 80px auto;
+    position: relative;
+}
+
+
+.twitter {
+    width: 256px;
+    height: 256px;
+    background-image: url(gambar/twitter-1.png);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -33px;
+    right: -40px;
 }
 
 h1 {
@@ -131,6 +145,22 @@ h1 {
     text-align: justify;
     padding-left: 20px;
     padding-bottom: 20px;
+}
+
+.main-first h4 {
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.main-first img {
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
 }
 
 .main-second {
